@@ -38,7 +38,7 @@
 
 
 
-	<h1>{@html br}Hello {name}!</h1>
+	<h1>Hello {name}!</h1>
     <div>{@html channel}</div> 
     <h2 class={status ? 'win' : 'danger'} > AWESOME {@html br} </h2> 
 
