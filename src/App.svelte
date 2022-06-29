@@ -48,12 +48,9 @@
 </main>
 
 <style>
-    .underline{ 
-        text-decoration: underline;
-    }
 
     .danger { 
-        color: red;
+        color: rgb(236, 13, 180);
     }
 
     .button{
@@ -63,10 +60,6 @@
     .win {
         color: blue;
         text-decoration: underline;
-    }
-
-    .promoted{
-        font-style: italic;
     }
 
 
