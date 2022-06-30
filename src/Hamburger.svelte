@@ -29,7 +29,7 @@
 	svg line {
 		stroke: currentColor;
 		stroke-width: 3;
-		transition: transform 10s ease-in-out
+		transition: transform 0.3s ease-in-out
 	}
 	
 	button {
@@ -40,16 +40,15 @@
 		transform: scale(0.7)
 	}
 	
-	/* .open #top {
+	.open #top {
 		transform: translate(6px, 0px) rotate(45deg)
-	} */
-	
-	.open #middle {
-		/* opacity: 0; */
-		transform: translate(-12px, 9px) rotate(-45deg)
 	}
 	
-  /* .open #bottom {
+	.open #middle {
+		opacity: 0;
+	}
+	
+  .open #bottom {
 		transform: translate(-12px, 9px) rotate(-45deg)
-	} */
+	}
 </style>

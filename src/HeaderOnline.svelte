@@ -1,6 +1,11 @@
 <script>
     import Hamburger from './Hamburger.svelte'
     export let open = false
+    let home = "<home>"
+    let about = "<about>"
+    let portfolio = "<portfolio>"
+    let contact = "<contact>"
+    let resume = "<resume>"
 </script> 
 
 
@@ -22,10 +27,11 @@
     </div>
     <div class="inner_header"> 
         <ul class="navigation">
-            <a><li>home</li></a>
-            <a><li>about</li></a>
-            <a><li>Portfolio</li></a>
-            <a><li>contact</li></a>
+            <a><li>{home}</li></a>
+            <a><li>{about}</li></a>
+            <a><li>{resume}</li></a>
+            <a><li>{contact}</li></a>
+            
         </ul>
     </div>
 
@@ -46,9 +52,14 @@
 
     header {
         width: 100%;
-        height: 80px;
+        height: 60px;
         display: block;
         background-color: black;
+        position: fixed;
+        z-index: 10;
+        top:0;
+        left: 0;
+        right:0;
     }
 
     .inner_header {
