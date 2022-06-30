@@ -4,12 +4,10 @@
     const headingID = 'heading'
     const id = 'headingId'
     let words = "<b> COLORS!! </b>"
-    // const disabled = false
+    const disabled = false
     let status = true
     let promoted = false
-
     let br = "<br></br>"
-
     function changeStatus() {
         if (promoted == false)  {
             promoted = true;
@@ -25,6 +23,16 @@
         }
     }
 
+    // import Header from "./Header.svelte"
+    import Navbar from './Navbar.svelte'
+	import Sidebar from './Sidebar.svelte'
+	import Main from './Main.svelte'
+    import Text from './Text.svelte'
+
+    import HeaderOnline from './HeaderOnline.svelte'
+
+    let open = false
+
     
 
 </script>
@@ -34,18 +42,30 @@
     <!-- <h2 {id}> {headingID} </h2>  -->
     <!-- <h2 class={!promoted ? 'promoted' : ''}> Promoted </h2>
     <h2 class:promoted> Promoted </h2> -->
+    
+    <HeaderOnline/>
+
+    <!-- <Sidebar bind:open/>
+    <Navbar bind:sidebar={open}/>
+    <Main/>
+    <Text/> -->
 
 
-
+   
 
 	<h1>Hello {name}!</h1>
     <div>{@html channel}</div> 
-    <h2 class={status ? 'win' : 'danger'} > AWESOME {@html br} </h2> 
+    <h2 class={status ? 'win' : 'danger'} > WE ADDED A HEADER!! {@html br} </h2> 
 
     <button on:click={changeStatus} class='button'> {@html words} </button>
 
 
 </main>
+
+
+<svelte:head>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"/>
+</svelte:head>      
 
 <style>
 

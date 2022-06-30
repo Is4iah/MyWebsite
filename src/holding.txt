@@ -1,0 +1,32 @@
+<div class="row">
+
+        <div class="col-12">
+
+            <a id="logo" class="logo" href="andablo.me">Isaiah Andablo</a>
+            <div class="icon-nav">navigation</div>
+            
+            <nav>
+
+                <ul id="nav">
+                    <li class="page_item page-item-2 current_page_item"><a href="https://www.adhamdannaway.com/about" aria-current="page">about</a></li>
+                    <li class="page_item page-item-735"><a href="andablo.me">book</a></li>
+                    <li class="page_item page-item-7"><a href="andablo.me">portfolio</a></li>
+                    <li class="page_item page-item-9"><a href="andablo.me">blog</a></li>
+                    <li class="page_item page-item-11"><a href="andablo.me">contact</a></li>
+                    <li>
+                        <ul >
+                            <!-- <li class="email"><span id="email-tooltip" tooltip="Click to copy my email address to your clipboard 😀"><a id="email" data-clipboard-text="email address goes here">email</a></span></li> -->
+                            <li ><a href="https://www.https://twitter.com/AndabloIsaiah" title="Follow me on Twitter" target="_blank">twitter</a></li>
+                            <li ><a href="https://au.linkedin.com/in/andablo" title="Connect with me on Linkedin" target="_blank">linkedin</a></li>
+                            <li ><a href="https://www.facebook.com/Gucci.Scuzzy" title="Like me on Facebook" target="_blank">facebook</a></li>
+                            <li ><a href="https://www.instagram.com/isaiah._.ii/" title="Follow me on Instagram" target="_blank">instagram</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </div>

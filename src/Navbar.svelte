@@ -14,3 +14,11 @@
 	
 	<Menu/>
 </header>
+
+
+<style> 
+	.header {
+		-ms-flex: auto;
+		
+	}
+</style>
