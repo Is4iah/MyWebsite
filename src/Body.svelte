@@ -46,7 +46,6 @@
         float: left;
         margin-left: 15%;
         margin-top: 20%;
-        font-family: fantasy;
         font-size: 40px;
     }
 
@@ -56,7 +55,6 @@
         float: right;
         margin-right: 15%;
         margin-top: 20%;
-        font-family: fantasy;
         font-size: 40px;
     }
 
@@ -64,8 +62,9 @@
         background-color:transparent;
         border-radius: 20px;
         float: middle;
-        font-family: fantasy;
         font-size: 40px;
+        margin-top: 40%;
+        margin-left: 30%;
     }
 
 
@@ -107,14 +106,14 @@
         -webkit-animation: fadeInRight 1.2s both;
         -moz-animation: fadeInRight 1.2s both;
         -o-animation: fadeInRight 1.2s both;
-        animation: fadeInRight 1.2s both;
+        animation: fadeInRight 4s both;
     }
 
     .fadeInTop{
         -webkit-animation: fadeInTop 1.2s both;
         -moz-animation: fadeInTop 1.2s both;
         -o-animation: fadeInTop 1.2s both;
-        animation: fadeInTop 1.2s both;
+        animation: fadeInTop 8s both;
     }
 
 
